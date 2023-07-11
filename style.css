@@ -1,88 +1,161 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-body{
-    background-color: rgb(219, 219, 219);
+
+:root {
+    --radius-cylinder: 99999999px;
 }
-.slide{
+
+body {
+    background: linear-gradient(to bottom, #151821, #252D3C, #151821);
+}
+
+.slide {
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.slide .content{
+
+.slide .content {
     display: flex;
     flex-direction: column;
     gap: 30px;
     width: 80%;
     max-width: 1367px;
 }
-.slide .title{
+.slide .title {
     display: flex;
     gap: 20px;
 }
-.slide .title img{
+.slide .title img {
     width: 40px;
+    filter: saturate(0) invert(50%);
 }
-.slide .title h1{
+
+.slide .title h1 {
     font-size: 30px;
     padding-left: 20px;
     border-left: 4px solid #23CDC3;
+    color: #ffffff;
 }
-.slide .title h1 > span{
+
+.slide .title h1 > span {
     color: #23CDC3;
 }
-.slide .infos-top{
+
+.slide .infos-top {
     display: flex;
     gap: 50px;
     align-items: center;
     width: 100%;
-    overflow: hidden;
 }
-.slide .infos-top > img{
+
+.slide .infos-top > img {
     --size: 100px;
     width: var(--size);
     height: var(--size);
+    flex: none;
     background-color: #384555;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 15px;
 }
 
-.slide .infos-top .client-infos{
-    max-width: 100%;
+.slide .infos-top .client-infos {
     height: 100px;
     padding: 10px;
     padding-left: 20px;
     background-color: #384555;
     color: white;
-    border-radius: 20px;
+    border-radius: 10px;
     color: white;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 100%;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex: 1;
 }
-.slide .infos-top .client-infos .name{
+
+.slide .infos-top .client-infos .name {
     color: #23CDC3;
 }
-.slide .infos-top .client-infos .description{
+
+.slide .infos-top .client-infos .name:empty::before {
+    content: '';
+    display: block;
+    width: 30%;
+    height: 20px;
+    border-radius: var(--radius-cylinder);
+    background-color: #2a303f;
+}
+
+.slide .infos-top .client-infos .description {
     overflow: hidden;
-    max-width: 400px;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
-.slide .infos-top .btn-action{
-    width: 210px;
-    height: 80px;
-    flex: none;
+
+.slide .infos-top .client-infos .description:empty::before {
+    content: '';
+    display: block;
+    width: 90%;
+    height: 20px;
+    border-radius: var(--radius-cylinder);
+    background-color: #2a303f;
+}
+
+.slide .infos-top .btn-action {
+    border: none;
+    background: none;
+    color: #ffffff;
     position: relative;
-    border: 2px solid #23CDC3;
-    background-color: #2A303F;
-    color: white;
+    padding: 0;
+    margin: 0;
+    transition: .3s ease;
+    --background-color: #2a303f;
+    --border-color: linear-gradient(to right, #23CDC3, #238a87);
+    --border-width: 4px;
+    border-radius: 5px 25px 5px 25px;
+    --clip: polygon(0 70%, 10% 100%, 100% 100%, 100% 30%, 90% 0%, 0% 0%);
     cursor: pointer;
+}
+  
+.slide .infos-top .btn-action:hover {
+    transform: scale(1.1);
+}
+  
+.slide .infos-top .btn-action .txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color);
+    padding: 15px;
+    width: 200px;
+    z-index: 2;
+    position: relative;
+    clip-path: var(--clip);
+    border-radius: inherit;
+    font-weight: bold;
+}
+  
+.slide .infos-top .btn-action::before {
+    content: '';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    width: calc(100% + var(--border-width));
+    height: calc(100% + var(--border-width));
+    z-index: 1;
+    clip-path: var(--clip);
+    background: var(--border-color);
+    border-radius: inherit;
 }
