@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(219, 219, 219);
+}
+.slide{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide .title{
+    display: flex;
+    gap: 20px;
+}
+.slide .title img{
+    width: 40px;
+}
+.slide .title h1{
+    font-size: 30px;
+    padding-left: 20px;
+    border-left: 2px solid gray;
+}
+.slide .title h1 > span{
+    color: #23CDC3;
+}
