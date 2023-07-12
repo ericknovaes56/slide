@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    transition: all .3s ease;
+    transition: .3s ease;
     scroll-behavior: smooth;
 }
 
@@ -21,20 +21,20 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0 100px;
+    padding: 100px;
 }
 
 .slide .content {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    width: 80%;
-    max-width: 1367px;
+    max-width: 1024px;
     width: 100%;
 }
 .slide .title {
+    --gap: 20px;
     display: flex;
-    gap: 20px;
+    gap: var(--gap);
 }
 .slide .title img {
     width: 40px;
@@ -43,7 +43,7 @@ body {
 
 .slide .title h1 {
     font-size: 30px;
-    padding-left: 20px;
+    padding-left: var(--gap);
     border-left: 4px solid #23CDC3;
     color: #ffffff;
 }
@@ -53,6 +53,8 @@ body {
 }
 
 .slide .infos-top {
+    --height: 80px;
+    --childs-shadow: 0 30px 30px rgba(0, 0, 0, .1);
     display: flex;
     gap: 50px;
     align-items: center;
@@ -60,17 +62,18 @@ body {
 }
 
 .slide .infos-top > img {
-    --size: 100px;
+    --size: var(--height);
     width: var(--size);
     height: var(--size);
     flex: none;
     background-color: #384555;
     border-radius: 10px;
     padding: 15px;
+    box-shadow: var(--childs-shadow);
 }
 
 .slide .infos-top .client-infos {
-    height: 100px;
+    height: var(--height);
     padding: 10px;
     padding-left: 20px;
     background-color: #384555;
@@ -81,12 +84,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    gap: 10px;
     flex: 1;
+    box-shadow: var(--childs-shadow);
 }
 
 .slide .infos-top .client-infos .name {
     color: #23CDC3;
+    font-size: 14pt;
+    font-weight: 500;
 }
 
 .slide .infos-top .client-infos .name:empty::before {
@@ -102,6 +107,7 @@ body {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    font-size: 12pt;
 }
 
 .slide .infos-top .client-infos .description:empty::before {
@@ -122,14 +128,16 @@ body {
     margin: 0;
     transition: .3s ease;
     --background-color: #2a303f;
-    --border-color: linear-gradient(to right, #23CDC3, #238a87);
-    --border-width: 4px;
+    --border-color: linear-gradient(to right, #23cdc3, #238a87);
+    --border-width: 2px;
     border-radius: 5px 25px 5px 25px;
     --clip: polygon(0 70%, 10% 100%, 100% 100%, 100% 30%, 90% 0%, 0% 0%);
     cursor: pointer;
 }
   
 .slide .infos-top .btn-action:hover {
+    --background-color: #23cdc3;
+    --border-color: #23cdc3;
     transform: scale(1.1);
 }
   
@@ -163,84 +171,93 @@ body {
     background: var(--border-color);
     border-radius: inherit;
 }
-.slide .slide-container{
+
+.slide .slide-container {
+    --actions-size: 40px;
     display: flex;
     position: relative;
     justify-content: center;
-    margin-top: 30px;
 }
-.slide .slide-container .action{
-    --size:50px;
-    fill: black;
-    width: var(--size);
-    height: var(--size);
-    background-color: white;
+
+.slide .slide-container .actions {
     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slide .slide-container .actions .action {
+    fill: black;
+    width: var(--actions-size);
+    height: var(--actions-size);
+    background-color: white;
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
     border-radius: 50%;
     cursor: pointer;
+    z-index: 3;
+    fill: #25D0BF;
+    user-select: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+}
+
+.slide .slide-container .images {
+    --margin: 100px;
+    --images-quantity: 3;
+    width: calc(100% - (var(--actions-size) * 2) - var(--margin));
+    height: 480px;
+    z-index: 2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.slide .slide-container .images .group {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    transition: .5s ease;
+}
+
+.slide .slide-container .images .group .image {
+    width: calc(100% / var(--images-quantity));
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    flex: none;
+    transition: .3s ease;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.slide .slide-container .images .group .image.hide {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.slide .slide-container .images .group .image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s ease;
+}
+
+.slide .slide-container .images .group .image.current {
+    transform: scale(1.4);
     z-index: 2;
 }
-.slide .slide-container .action svg{
-    width: 60px;
-    height: 60px;
-    flex: none;
-    fill: #23CDC3;
-}
-.slide .slide-container .to-right{
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-}
-.slide .slide-container .to-left{
-    left: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-}
-.imagens{
-    height: 350px;
-    overflow: hidden;
-    display: flex;
-    justify-content: start;
-    gap: 20px;
-    width: 90%;
-    transform: translateX(10px);
-    padding: 0 10px;
-}
-.imagens a{
-    width: calc(100% / 3 + -14px);
-    flex: none;
-    overflow: hidden;
-    transform: scale(0.7);
-}
-.imagens a img{
-    --size:100%;
-    height: var(--size);
-    width: var(--size);
-    object-fit: cover;
-    border-radius: 20px;
-    filter: blur(5px);
-    transform: scale(3);
-    bor
-}
-.imagens .iscurrent{
+
+.slide .slide-container .images .group .image:not(.current) img {
+    filter: blur(10px);
     transform: scale(1.1);
-    z-index: 3;
-}
-.imagens .iscurrent img{
-    filter: blur(0px);
-    transform: scale(1);
-}
-.touched-left{
-    transform: translateX(100px) scale(0.7) !important;
-    filter: blur(5px);
-}
-.touched-right{
-    transform: translateX(-100px) scale(0.7) !important;
-    filter: blur(5px);
 }
