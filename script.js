@@ -25,7 +25,7 @@ const clients = [
     {
         name: 'Gisele Meireles',
         description: 'Descrição da Gisele Meireles',
-        photo: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/logo.png',
+        photo: 'https://cdn.discordapp.com/attachments/801210889943384105/1128464520185131168/logo.png',
         projects: [
             {
                 image: 'https://images-ext-1.discordapp.net/external/4ruXRu7zm5rKR538X1ANskR5J41ZihVJGxGYDbjDmAs/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/369230482237423617/2abaa661c51bfbd4d4466b6918f78d1e.png?size=2048',
@@ -36,7 +36,7 @@ const clients = [
     {
         name: 'Matheus Staudinger',
         description: 'Descrição do Matheus Staudinger',
-        photo: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/logo.png',
+        photo: 'https://cdn.discordapp.com/attachments/801210889943384105/1128464553248825424/logo.png',
         projects: [
             {
                 image: 'https://images-ext-1.discordapp.net/external/4ruXRu7zm5rKR538X1ANskR5J41ZihVJGxGYDbjDmAs/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/369230482237423617/2abaa661c51bfbd4d4466b6918f78d1e.png?size=2048',
@@ -47,7 +47,7 @@ const clients = [
     {
         name: 'Pure Healthy',
         description: 'Descrição da Pure Healthy',
-        photo: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/logo.png',
+        photo: 'https://cdn.discordapp.com/attachments/801210889943384105/1128464577957470208/logo.png',
         projects: [
             {
                 image: 'https://images-ext-1.discordapp.net/external/4ruXRu7zm5rKR538X1ANskR5J41ZihVJGxGYDbjDmAs/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/369230482237423617/2abaa661c51bfbd4d4466b6918f78d1e.png?size=2048',

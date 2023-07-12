@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all .3s ease;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -19,6 +21,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 0 100px;
 }
 
 .slide .content {
@@ -27,6 +30,7 @@ body {
     gap: 30px;
     width: 80%;
     max-width: 1367px;
+    width: 100%;
 }
 .slide .title {
     display: flex;
@@ -158,4 +162,85 @@ body {
     clip-path: var(--clip);
     background: var(--border-color);
     border-radius: inherit;
+}
+.slide .slide-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 30px;
+}
+.slide .slide-container .action{
+    --size:50px;
+    fill: black;
+    width: var(--size);
+    height: var(--size);
+    background-color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 2;
+}
+.slide .slide-container .action svg{
+    width: 60px;
+    height: 60px;
+    flex: none;
+    fill: #23CDC3;
+}
+.slide .slide-container .to-right{
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.slide .slide-container .to-left{
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.imagens{
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    width: 90%;
+    transform: translateX(10px);
+    padding: 0 10px;
+}
+.imagens a{
+    width: calc(100% / 3 + -14px);
+    flex: none;
+    overflow: hidden;
+    transform: scale(0.7);
+}
+.imagens a img{
+    --size:100%;
+    height: var(--size);
+    width: var(--size);
+    object-fit: cover;
+    border-radius: 20px;
+    filter: blur(5px);
+    transform: scale(3);
+    bor
+}
+.imagens .iscurrent{
+    transform: scale(1.1);
+    z-index: 3;
+}
+.imagens .iscurrent img{
+    filter: blur(0px);
+    transform: scale(1);
+}
+.touched-left{
+    transform: translateX(100px) scale(0.7) !important;
+    filter: blur(5px);
+}
+.touched-right{
+    transform: translateX(-100px) scale(0.7) !important;
+    filter: blur(5px);
 }
