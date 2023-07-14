@@ -240,6 +240,7 @@ body {
 .slide .slide-container .images .group .image.hide {
     opacity: 0;
     pointer-events: none;
+    transform: scale(.8);
 }
 
 .slide .slide-container .images .group .image img {
