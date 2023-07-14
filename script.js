@@ -206,10 +206,9 @@ window.addEventListener('load', async () => {
 
         client.images.forEach(async (project, index) => {
 
-            const projectContainer = document.createElement('a')
+            const projectContainer = document.createElement('div')
             const projectImage = document.createElement('img')
-            
-            projectContainer.href = project.page
+
             projectContainer.classList.add('image')
 
             projectImage.src = project.image
@@ -239,10 +238,9 @@ window.addEventListener('load', async () => {
 
             client.images.forEach(async (project, index) => {
     
-                const projectContainer = document.createElement('a')
+                const projectContainer = document.createElement('div')
                 const projectImage = document.createElement('img')
-                
-                projectContainer.href = project.page
+
                 projectContainer.classList.add('image')
     
                 projectImage.src = project.image
