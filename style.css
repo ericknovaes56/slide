@@ -133,6 +133,7 @@ body {
     border-radius: 5px 25px 5px 25px;
     --clip: polygon(0 70%, 10% 100%, 100% 100%, 100% 30%, 90% 0%, 0% 0%);
     cursor: pointer;
+    outline: none;
 }
   
 .slide .infos-top .btn-action:hover {
