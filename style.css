@@ -275,7 +275,7 @@ body {
     transform: scale(1.2);
 }
 
-.slide .slide-container .images .group .image.hide {
+.slide .slide-container .images .group .image.hidden {
     opacity: 0;
     pointer-events: none;
     transform: scale(.8);

@@ -279,7 +279,7 @@ async function scrollCarousel(currentImage, direction) {
 
     elements.slideContainer.images.childs.forEach((image) => {
 
-        image.classList.remove('hide')
+        image.classList.remove('hidden')
         image.classList.remove('current')
 
     })
@@ -307,7 +307,7 @@ async function scrollCarousel(currentImage, direction) {
 
         if(image){
             
-            image.classList.add('hide')
+            image.classList.add('hidden')
     
         }
 
