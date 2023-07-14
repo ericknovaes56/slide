@@ -223,6 +223,16 @@ window.addEventListener('load', async () => {
             elements.slideContainer.images.childs = elements.slideContainer.images.self.childNodes
 
             await scrollCarousel(elements.slideContainer.images.childs[0], 'right')
+
+            elements.slideContainer.images.childs.forEach((image, index) => {
+
+                image.addEventListener('click', async () => {
+                    
+                    await scrollCarousel(image)
+        
+                })
+        
+            })
     
         }
     
