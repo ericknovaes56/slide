@@ -253,6 +253,16 @@ window.addEventListener('load', async () => {
 
     })
 
+    elements.slideContainer.images.childs.forEach((image, index) => {
+
+        image.addEventListener('click', async () => {
+            
+            await scrollCarousel(image)
+
+        })
+
+    })
+
 })
 
 async function scrollCarousel(currentImage, direction) {
@@ -264,24 +274,34 @@ async function scrollCarousel(currentImage, direction) {
 
     })
 
-    const newCurrentImage = currentImage[`${direction == 'right' ? 'next' : 'previous'}Sibling`]
+    const newCurrentImage = direction ? currentImage[`${direction == 'right' ? 'next' : 'previous'}Sibling`] : currentImage
     
     newCurrentImage.classList.add('current')
 
-    if(newCurrentImage.previousSibling && newCurrentImage.previousSibling.previousSibling){
+    const newcurrentImageIndex = Array.from(elements.slideContainer.images.childs).indexOf(newCurrentImage)
+    const offset = (newCurrentImage.clientWidth * -(newcurrentImageIndex - 1)) + 'px'
 
-        newCurrentImage.previousSibling.previousSibling.classList.add('hide')
+    for(let i = 0; i < newcurrentImageIndex - 1; i++){
+
+        hideImage(elements.slideContainer.images.childs[i], i)
+
+    }
+
+    for(let i = newcurrentImageIndex + 2; i < elements.slideContainer.images.childs.length; i++){
+
+        hideImage(elements.slideContainer.images.childs[i], (i - newcurrentImageIndex))
         
     }
+    
+    function hideImage(image, distanceOfZero) {
 
-    if(newCurrentImage.nextSibling && newCurrentImage.nextSibling.nextSibling){
-
-        newCurrentImage.nextSibling.nextSibling.classList.add('hide')
+        if(image){
+            
+            image.classList.add('hide')
+    
+        }
 
     }
-
-    const newcurrentImageIndex = Array.from(elements.slideContainer.images.childs).indexOf(newCurrentImage) - 1
-    const offset = (newCurrentImage.clientWidth * -newcurrentImageIndex) + 'px'
 
     elements.slideContainer.images.self.style.transform = `translateX(${offset})`
 

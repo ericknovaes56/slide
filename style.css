@@ -129,7 +129,7 @@ body {
     transition: .3s ease;
     --background-color: #2a303f;
     --border-color: linear-gradient(to right, #23cdc3, #238a87);
-    --border-width: 2px;
+    --border-width: 4px;
     border-radius: 5px 25px 5px 25px;
     --clip: polygon(0 70%, 10% 100%, 100% 100%, 100% 30%, 90% 0%, 0% 0%);
     cursor: pointer;
@@ -239,12 +239,6 @@ body {
     cursor: pointer;
 }
 
-.slide .slide-container .images .group .image.hide {
-    opacity: 0;
-    pointer-events: none;
-    transform: scale(.8);
-}
-
 .slide .slide-container .images .group .image img {
     position: absolute;
     top: 0;
@@ -262,5 +256,11 @@ body {
 
 .slide .slide-container .images .group .image:not(.current) img {
     filter: blur(10px);
-    transform: scale(1.1);
+    transform: scale(1.2);
+}
+
+.slide .slide-container .images .group .image.hide {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(.8);
 }
