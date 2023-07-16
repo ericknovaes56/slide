@@ -2,111 +2,111 @@ const clients = [
     {
         name: 'Gisele Meireles',
         description: 'Descrição da Gisele Meireles',
-        photo: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/icongs.png',
+        photo: 'https://cdn.discordapp.com/attachments/801210889943384105/1128464520185131168/logo.png',
         images: [
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/Snapinsta.app_342377721_1322063631704741_5339397734611834695_n_1080-1.jpg',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_338756439_602068328649375_970361855913615907_n_1080.jpg',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/Snapinsta.app_342373556_888794072225970_6394532793165796485_n_1080-1.jpg',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_339145169_1269735400298651_4063940089860892140_n_1080.jpg',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/Snapinsta.app_342280851_231521492885132_5469276481783619988_n_1080.jpg',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_342039584_756499279431425_3093297704798233902_n_1080.jpg',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/Snapinsta.app_342101572_768162264720561_3240492123577296049_n_1080.jpg',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_342065312_698465782053602_7578099195561972987_n_1080.jpg',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/Snapinsta.app_342083275_1411824366221165_5357967678716503921_n_1080.jpg',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_342067728_749248463361735_8298239884568301860_n_1080.jpg',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/Snapinsta.app_342067728_749248463361735_8298239884568301860_n_1080.jpg',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_342083275_1411824366221165_5357967678716503921_n_1080.jpg',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/Snapinsta.app_342065312_698465782053602_7578099195561972987_n_1080.jpg',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_342101572_768162264720561_3240492123577296049_n_1080.jpg',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/Snapinsta.app_342039584_756499279431425_3093297704798233902_n_1080.jpg',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_342280851_231521492885132_5469276481783619988_n_1080.jpg',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/Snapinsta.app_339145169_1269735400298651_4063940089860892140_n_1080.jpg',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_342373556_888794072225970_6394532793165796485_n_1080 (1).jpg',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/Snapinsta.app_338756439_602068328649375_970361855913615907_n_1080.jpg',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_342377721_1322063631704741_5339397734611834695_n_1080 (1).jpg',
             },
         ]
     },
     {
         name: 'Matheus Staudinger',
         description: 'Descrição do Matheus Staudinger',
-        photo: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/iconms-1.png',
+        photo: 'https://cdn.discordapp.com/attachments/801210889943384105/1128464553248825424/logo.png',
         images: [
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/Snapinsta.app_349040524_989746442016645_1782292294069088091_n_1080.jpg',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/m1.png',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/m1.png',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_348488684_1034266564203321_7536135470659574564_n_1080.jpg',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/Snapinsta.app_348749239_276612601469460_905745581815246018_n_1080.jpg',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_348647709_1610231812834414_5296188404553254524_n_1080.jpg',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/Snapinsta.app_348862042_1804157626646932_7698996856201145835_n_1080.jpg',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_348654148_205637658971834_6024116929798325022_n_1080.jpg',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/Snapinsta.app_348670622_937757114157421_4157285723538284629_n_1080.jpg',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_348662650_127263963697782_6036216806623176685_n_1080.jpg',
             },
             {
-                image: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/Snapinsta.app_348664033_1380204189487913_7907616534426737778_n_1080.jpg',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_348664033_1380204189487913_7907616534426737778_n_1080.jpg',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/Snapinsta.app_348662650_127263963697782_6036216806623176685_n_1080.jpg',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_348670622_937757114157421_4157285723538284629_n_1080.jpg',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/Snapinsta.app_348654148_205637658971834_6024116929798325022_n_1080.jpg',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_348749239_276612601469460_905745581815246018_n_1080.jpg',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/Snapinsta.app_348647709_1610231812834414_5296188404553254524_n_1080.jpg',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_348862042_1804157626646932_7698996856201145835_n_1080.jpg',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/Snapinsta.app_348488684_1034266564203321_7536135470659574564_n_1080.jpg',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_349040524_989746442016645_1782292294069088091_n_1080.jpg',
             },
         ]
     },
     {
         name: 'Pure Healthy',
         description: 'Descrição da Pure Healthy',
-        photo: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/iconpure.png',
+        photo: 'https://cdn.discordapp.com/attachments/801210889943384105/1128464577957470208/logo.png',
         images: [
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p5.png',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p1.png',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p8.png',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p2.png',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p6.png',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p3.png',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p7.png',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p4.png',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p9.png',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p5.png',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p10.png',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p6.png',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p1.png',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p7.png',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p2.png',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p8.png',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p3.png',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p9.png',
             },
             {
-                image: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p4.png',
+                image: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p10.png',
             },
         ]
     },
@@ -140,6 +140,7 @@ const elements = {
         }
     }
 }
+const imagesPerView = Number(getComputedStyle(elements.slideContainer.images.self.parentNode).getPropertyValue('--images-quantity').trim())
 
 window.addEventListener('load', async () => {
 
@@ -277,6 +278,8 @@ window.addEventListener('load', async () => {
 
 async function scrollCarousel(currentImage, direction) {
 
+    await createClones()
+
     elements.slideContainer.images.childs.forEach((image) => {
 
         image.classList.remove('hidden')
@@ -288,18 +291,18 @@ async function scrollCarousel(currentImage, direction) {
     
     newCurrentImage.classList.add('current')
 
-    const newcurrentImageIndex = Array.from(elements.slideContainer.images.childs).indexOf(newCurrentImage)
-    const offset = (newCurrentImage.clientWidth * -(newcurrentImageIndex - 1)) + 'px'
+    const newCurrentImageIndex = Array.from(elements.slideContainer.images.childs).indexOf(newCurrentImage)
+    const offset = (newCurrentImage.clientWidth * -(newCurrentImageIndex - 1)) + 'px'
 
-    for(let i = 0; i < newcurrentImageIndex - 1; i++){
+    for(let i = 0; i < newCurrentImageIndex - 1; i++){
 
         hideImage(elements.slideContainer.images.childs[i], i)
 
     }
 
-    for(let i = newcurrentImageIndex + 2; i < elements.slideContainer.images.childs.length; i++){
+    for(let i = newCurrentImageIndex + 2; i < elements.slideContainer.images.childs.length; i++){
 
-        hideImage(elements.slideContainer.images.childs[i], (i - newcurrentImageIndex))
+        hideImage(elements.slideContainer.images.childs[i], (i - newCurrentImageIndex))
         
     }
     
@@ -315,6 +318,76 @@ async function scrollCarousel(currentImage, direction) {
 
     elements.slideContainer.images.self.style.transform = `translateX(${offset})`
 
+    await alternateClones(newCurrentImageIndex)
+
+}
+
+async function createClones() {
+
+    let clones = elements.slideContainer.images.self.querySelectorAll('.image.clone')
+
+    if(!clones || clones.length == 0){
+
+        Array.from(elements.slideContainer.images.childs).forEach((image, index, childs) => {
+
+            if(index < imagesPerView){
+                
+                const cloneImage = image.cloneNode(true)
+                
+                cloneImage.classList.add('clone')
+                
+                elements.slideContainer.images.self.appendChild(cloneImage)
+                
+            } else if(index >= (childs.length - imagesPerView)) {
+                
+                const cloneImage = image.cloneNode(true)
+                
+                cloneImage.classList.add('clone')
+                
+                elements.slideContainer.images.self.insertBefore(cloneImage, childs[0])
+
+            }
+
+        })
+        
+    }
+    
+}
+
+async function alternateClones(currentImageIndex) {
+
+    const backupTransition = getComputedStyle(elements.slideContainer.images.self).getPropertyValue('transition')
+    const originalMaxImagesChilds = elements.slideContainer.images.childs.length - (imagesPerView * 2)
+    
+    let newIndex = null,
+        direction = null
+    
+    if(currentImageIndex == 1){
+
+        newIndex = originalMaxImagesChilds + imagesPerView
+        direction = 'left'
+        
+    } else if(currentImageIndex == elements.slideContainer.images.childs.length - 2){
+        
+        newIndex = imagesPerView - 1
+        direction = 'right'
+        
+    }
+    
+    if(newIndex){
+        
+        elements.slideContainer.images.self.style.transition = 'none'
+        await scrollCarousel(elements.slideContainer.images.childs[newIndex], direction)
+        elements.slideContainer.images.self.style.transition = backupTransition
+        
+        if(currentImageIndex + 1 < originalMaxImagesChilds || currentImageIndex + 1 > originalMaxImagesChilds){
+            
+            await scrollCarousel(elements.slideContainer.images.childs[direction == 'left' ? (newIndex - 1) : (newIndex + 1)], direction)
+
+        }
+
+    }
+    
 }
 
 async function getClient() {
