@@ -266,9 +266,7 @@ body {
     cursor: pointer;
 }
 
-.slide .slide-container .images:active .group .image {
-    cursor: -webkit-grabbing;
-    cursor: -moz-grabbing;
+.slide .slide-container .images .group:active .image {
     cursor: grabbing;
 }
 

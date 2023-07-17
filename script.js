@@ -289,14 +289,13 @@ window.addEventListener('load', async () => {
     })
 
     elements.slideContainer.images.self.addEventListener('mousedown', await dragCarousel('start'))
-    elements.slideContainer.images.self.addEventListener('touchstart', await dragCarousel('start'))
-
     elements.slideContainer.images.self.addEventListener('mousemove', await dragCarousel('move'))
-    elements.slideContainer.images.self.addEventListener('touchmove', await dragCarousel('move'))
-    
     elements.slideContainer.images.self.addEventListener('mouseup', await dragCarousel('end'))
-    elements.slideContainer.images.self.addEventListener('touchend', await dragCarousel('end'))
     elements.slideContainer.images.self.addEventListener('mouseleave', await dragCarousel('end'))
+    
+    elements.slideContainer.images.self.addEventListener('touchstart', await dragCarousel('start'))
+    elements.slideContainer.images.self.addEventListener('touchmove', await dragCarousel('move'))
+    elements.slideContainer.images.self.addEventListener('touchend', await dragCarousel('end'))
     elements.slideContainer.images.self.addEventListener('touchleave', await dragCarousel('end'))
     elements.slideContainer.images.self.addEventListener('touchcancel', await dragCarousel('end'))
 
@@ -354,10 +353,14 @@ async function dragCarousel(event) {
 
         const events = {
             start: async (e) => {
-    
+   
+                const clientX = (e.clientX) ? e.clientX : e.targetTouches[0].clientX
+                
                 dragging = true
-                startDrag = e.clientX
+                startDrag = clientX
                 startTranslate = Number(elements.slideContainer.images.self.style.transform.replace(/\D/g, ''))
+                
+                console.log('Drag start')
                 
             },
             move: async (e) => {
@@ -367,10 +370,10 @@ async function dragCarousel(event) {
                     return
     
                 }
+
+                const clientX = (e.clientX) ? e.clientX : e.targetTouches[0].clientX
                 
-                e.preventDefault()
-                
-                const mouseOffset = (startDrag - e.clientX)
+                const mouseOffset = (startDrag - clientX)
                 let offset = startTranslate
     
                 if(Math.abs(mouseOffset) > elements.slideContainer.images.childs[0].clientWidth / 2){
@@ -392,12 +395,22 @@ async function dragCarousel(event) {
                 }
     
                 elements.slideContainer.images.self.style.transform = `translateX(-${offset}px`;
+
+                console.log('Drag moving')
     
             },
             end: async (e) => {
                 
+                if(!dragging){
+                    
+                    draggingLeave = true
+
+                }
+
+                startDrag = 0
                 dragging = false
-                draggingLeave = true
+
+                console.log('Drag stoped')
                 
             },
         }
