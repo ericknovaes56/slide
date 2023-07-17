@@ -243,6 +243,7 @@ body {
     align-items: center;
     overflow: hidden;
     margin-top: 40px;
+    padding: 5px;
 }
 
 .slide .slide-container .images .group {
@@ -262,7 +263,6 @@ body {
     flex: none;
     transition: inherit;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
     cursor: pointer;
 }
 
@@ -284,6 +284,7 @@ body {
 .slide .slide-container .images .group .image.current {
     transform: scale(1.4);
     z-index: 2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 
 .slide .slide-container .images .group .image:not(.current) img {
