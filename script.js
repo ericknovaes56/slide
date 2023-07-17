@@ -142,6 +142,12 @@ const elements = {
 }
 const imagesPerView = Number(getComputedStyle(elements.slideContainer.images.self.parentNode).getPropertyValue('--images-quantity').trim())
 
+let dragging = false,
+    draggingLeave = false,
+    startDrag = 0,
+    startTranslate = 0
+
+
 window.addEventListener('load', async () => {
 
     const carouselResizeObserver = new ResizeObserver(async (entries) => {
@@ -266,13 +272,33 @@ window.addEventListener('load', async () => {
 
     elements.slideContainer.images.childs.forEach((image, index) => {
 
-        image.addEventListener('click', async () => {
+        image.addEventListener('click', async (e) => {
+
+            if(draggingLeave){
+
+                draggingLeave = false
+
+                return
+
+            }
             
             await scrollCarousel(image)
 
         })
 
     })
+
+    elements.slideContainer.images.self.addEventListener('mousedown', await dragCarousel('start'))
+    elements.slideContainer.images.self.addEventListener('touchstart', await dragCarousel('start'))
+
+    elements.slideContainer.images.self.addEventListener('mousemove', await dragCarousel('move'))
+    elements.slideContainer.images.self.addEventListener('touchmove', await dragCarousel('move'))
+    
+    elements.slideContainer.images.self.addEventListener('mouseup', await dragCarousel('end'))
+    elements.slideContainer.images.self.addEventListener('touchend', await dragCarousel('end'))
+    elements.slideContainer.images.self.addEventListener('mouseleave', await dragCarousel('end'))
+    elements.slideContainer.images.self.addEventListener('touchleave', await dragCarousel('end'))
+    elements.slideContainer.images.self.addEventListener('touchcancel', await dragCarousel('end'))
 
 })
 
@@ -320,6 +346,78 @@ async function scrollCarousel(currentImage, direction) {
 
     await alternateClones(newCurrentImageIndex)
 
+}
+
+async function dragCarousel(event) {
+
+    try {
+
+        const events = {
+            start: async (e) => {
+    
+                dragging = true
+                startDrag = e.clientX
+                startTranslate = Number(elements.slideContainer.images.self.style.transform.replace(/\D/g, ''))
+                
+            },
+            move: async (e) => {
+    
+                if(!dragging){
+    
+                    return
+    
+                }
+                
+                e.preventDefault()
+                
+                const mouseOffset = (startDrag - e.clientX)
+                let offset = startTranslate
+    
+                if(Math.abs(mouseOffset) > elements.slideContainer.images.childs[0].clientWidth / 2){
+    
+                    offset += mouseOffset
+    
+                    const currentImage = Array.from(elements.slideContainer.images.childs).filter((image) => {
+            
+                        return image.classList.contains('current')
+            
+                    })[0]
+    
+                    const direction = Math.sign(mouseOffset) > 0 ? 'right' : 'left'
+    
+                    scrollCarousel(currentImage, direction)
+    
+                    dragging = false
+    
+                }
+    
+                elements.slideContainer.images.self.style.transform = `translateX(-${offset}px`;
+    
+            },
+            end: async (e) => {
+                
+                dragging = false
+                draggingLeave = true
+                
+            },
+        }
+    
+        const eventSelected = events[event]
+    
+        if(!eventSelected){
+    
+            throw new Error(`O evento ${event} não existe`)
+    
+        }
+    
+        return eventSelected
+
+    } catch(Error) {
+
+        console.error(Error.message)
+
+    }
+    
 }
 
 async function createClones() {
