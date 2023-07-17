@@ -360,8 +360,6 @@ async function dragCarousel(event) {
                 startDrag = clientX
                 startTranslate = Number(elements.slideContainer.images.self.style.transform.replace(/\D/g, ''))
                 
-                console.log('Drag start')
-                
             },
             move: async (e) => {
     
@@ -395,8 +393,6 @@ async function dragCarousel(event) {
                 }
     
                 elements.slideContainer.images.self.style.transform = `translateX(-${offset}px`;
-
-                console.log('Drag moving')
     
             },
             end: async (e) => {
@@ -409,8 +405,6 @@ async function dragCarousel(event) {
 
                 startDrag = 0
                 dragging = false
-
-                console.log('Drag stoped')
                 
             },
         }
