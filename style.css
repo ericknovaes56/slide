@@ -355,9 +355,13 @@
         display: none;
     }
 
+    .slide .slide-container {
+        margin-bottom: calc(100px);
+    }
+
     .slide .slide-container .actions {
         height: 0;
-        top: calc(100% + 40px);
+        top: calc(100% + var(--actions-size));
         justify-content: center;
         gap: 20px;
     }
@@ -374,6 +378,7 @@
     .slide .slide-container .images .group .image img.mobile {
         display: block;
     }
+
     .slide .title h1{
         font-size: 20px;
     }
