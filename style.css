@@ -1,21 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    scroll-behavior: smooth;
-}
-
 :root {
     --radius-cylinder: 99999999px;
-}
-
-body {
-    background: linear-gradient(to bottom, #151821, #252D3C, #151821);
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    background-size: cover;
-    transition: none;
 }
 
 .slide {
@@ -23,14 +7,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 20px;
 }
 
 .slide .content {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    max-width: 1024px;
     width: 100%;
 }
 .slide .title {
@@ -50,7 +32,7 @@ body {
 .slide .title h1 {
     font-size: 30px;
     padding-left: var(--gap);
-    border-left: 4px solid #23CDC3;
+    border-left: 2px solid #23CDC3;
     color: #ffffff;
 }
 
@@ -106,6 +88,7 @@ body {
     font-size: 14pt;
     font-weight: 500;
     flex: none;
+    margin: 0;
 }
 
 .slide .infos-top .client-infos .text-content .name:empty::before {
@@ -123,6 +106,7 @@ body {
     text-overflow: ellipsis;
     font-size: 12pt;
     flex: none;
+    font-weight: 100;
 }
 
 .slide .infos-top .client-infos .text-content .description:empty::before {
@@ -150,8 +134,8 @@ body {
     --clip: polygon(0 calc(100% - var(--clip-effect-size)), var(--clip-effect-size) 100%, 100% 100%, 100% var(--clip-effect-size), calc(100% - var(--clip-effect-size)) 0%, 0% 0%);
     cursor: pointer;
     outline: none;
-    min-width: 200px;
-    height: 40px;
+    min-width: 230px;
+    height: 60px;
 }
   
 .slide .infos-top .btn-action:hover {
@@ -173,8 +157,8 @@ body {
     top: 0;
     left: 0;
     clip-path: var(--clip);
+    transition: inherit;
     border-radius: inherit;
-    font-weight: bold;
 }
 
 .slide .infos-top .btn-action .txt .icon {
@@ -220,14 +204,14 @@ body {
     fill: black;
     width: var(--actions-size);
     height: var(--actions-size);
-    background-color: white;
+    background-color: #23cdc3;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     cursor: pointer;
     z-index: 3;
-    fill: #25D0BF;
+    fill: #000000;
     user-select: none;
     box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
 }
@@ -242,7 +226,7 @@ body {
     display: flex;
     align-items: center;
     overflow: hidden;
-    margin-top: 40px;
+    margin-top: 30px;
     padding: 5px;
 }
 
@@ -379,6 +363,9 @@ body {
 
     .slide .slide-container .images .group .image img.mobile {
         display: block;
+    }
+    .slide .title h1{
+        font-size: 20px;
     }
 
 }
