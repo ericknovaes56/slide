@@ -5,44 +5,44 @@ const clients = [
         photo: 'https://cdn.discordapp.com/attachments/801210889943384105/1128464520185131168/logo.png',
         images: [
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_338756439_602068328649375_970361855913615907_n_1080.jpg',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_338756439_602068328649375_970361855913615907_n_1080.jpg',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c10.jpg',
+                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c10.jpg',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_339145169_1269735400298651_4063940089860892140_n_1080.jpg',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_339145169_1269735400298651_4063940089860892140_n_1080.jpg',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c9.jpg',
+                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c9.jpg',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_342039584_756499279431425_3093297704798233902_n_1080.jpg',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_342039584_756499279431425_3093297704798233902_n_1080.jpg',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c8.jpg',
+                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c8.jpg',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_342065312_698465782053602_7578099195561972987_n_1080.jpg',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_342065312_698465782053602_7578099195561972987_n_1080.jpg',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c7.jpg',
+                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c7.jpg',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_342067728_749248463361735_8298239884568301860_n_1080.jpg',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_342067728_749248463361735_8298239884568301860_n_1080.jpg',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c6.jpg',
+                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c6.jpg',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_342083275_1411824366221165_5357967678716503921_n_1080.jpg',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_342083275_1411824366221165_5357967678716503921_n_1080.jpg',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c5.jpg',
+                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c5.jpg',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_342101572_768162264720561_3240492123577296049_n_1080.jpg',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_342101572_768162264720561_3240492123577296049_n_1080.jpg',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c4.jpg',
+                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c4.jpg',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_342280851_231521492885132_5469276481783619988_n_1080.jpg',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_342280851_231521492885132_5469276481783619988_n_1080.jpg',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c3.jpg',
+                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c3.jpg',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_342373556_888794072225970_6394532793165796485_n_1080 (1).jpg',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_342373556_888794072225970_6394532793165796485_n_1080 (1).jpg',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c2.jpg',
+                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c2.jpg',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_342377721_1322063631704741_5339397734611834695_n_1080 (1).jpg',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/gisela_meireles/images/Snapinsta.app_342377721_1322063631704741_5339397734611834695_n_1080 (1).jpg',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c1.jpg',
+                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c1.jpg',
             },
         ]
     },
@@ -52,44 +52,44 @@ const clients = [
         photo: 'https://cdn.discordapp.com/attachments/801210889943384105/1128464553248825424/logo.png',
         images: [
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/m1.png',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/m1.png',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/2.jpg',
+                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/2.jpg',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_348488684_1034266564203321_7536135470659574564_n_1080.jpg',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_348488684_1034266564203321_7536135470659574564_n_1080.jpg',
+                mobile:  'http://jhonzzera.com.br/wp-content/uploads/2023/07/1.png',
+                desktop:  'http://jhonzzera.com.br/wp-content/uploads/2023/07/1.png',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_348647709_1610231812834414_5296188404553254524_n_1080.jpg',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_348647709_1610231812834414_5296188404553254524_n_1080.jpg',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/3.jpg',
+                desktop:'http://jhonzzera.com.br/wp-content/uploads/2023/07/3.jpg',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_348654148_205637658971834_6024116929798325022_n_1080.jpg',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_348654148_205637658971834_6024116929798325022_n_1080.jpg',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/4.jpg',
+                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/4.jpg',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_348662650_127263963697782_6036216806623176685_n_1080.jpg',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_348662650_127263963697782_6036216806623176685_n_1080.jpg',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/5.jpg',
+                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/5.jpg',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_348664033_1380204189487913_7907616534426737778_n_1080.jpg',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_348664033_1380204189487913_7907616534426737778_n_1080.jpg',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/6.jpg',
+                desktop:  'http://jhonzzera.com.br/wp-content/uploads/2023/07/6.jpg',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_348670622_937757114157421_4157285723538284629_n_1080.jpg',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_348670622_937757114157421_4157285723538284629_n_1080.jpg',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/7.jpg',
+                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/7.jpg',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_348749239_276612601469460_905745581815246018_n_1080.jpg',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_348749239_276612601469460_905745581815246018_n_1080.jpg',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/8.jpg',
+                desktop:'http://jhonzzera.com.br/wp-content/uploads/2023/07/8.jpg',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_348862042_1804157626646932_7698996856201145835_n_1080.jpg',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_348862042_1804157626646932_7698996856201145835_n_1080.jpg',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/9.jpg',
+                desktop:'http://jhonzzera.com.br/wp-content/uploads/2023/07/9.jpg',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_349040524_989746442016645_1782292294069088091_n_1080.jpg',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/matheus_staudinger/images/Snapinsta.app_349040524_989746442016645_1782292294069088091_n_1080.jpg',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/10.jpg',
+                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/10.jpg',
             },
         ]
     },
@@ -99,44 +99,44 @@ const clients = [
         photo: 'https://cdn.discordapp.com/attachments/801210889943384105/1128464577957470208/logo.png',
         images: [
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p1.png',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p1.png',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p9.png',
+                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p9.png',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p2.png',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p2.png',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p8.png',
+                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p8.png'
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p3.png',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p3.png',
+                mobile:  'http://jhonzzera.com.br/wp-content/uploads/2023/07/p10.png',
+                desktop:  'http://jhonzzera.com.br/wp-content/uploads/2023/07/p10.png',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p4.png',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p4.png',
+                mobile:'http://jhonzzera.com.br/wp-content/uploads/2023/07/p7.png',
+                desktop:'http://jhonzzera.com.br/wp-content/uploads/2023/07/p7.png',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p5.png',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p5.png',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p6.png',
+                desktop:'http://jhonzzera.com.br/wp-content/uploads/2023/07/p6.png',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p6.png',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p6.png',
+                mobile:  'http://jhonzzera.com.br/wp-content/uploads/2023/07/p5.png',
+                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p5.png',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p7.png',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p7.png',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p4.png',
+                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p4.png',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p8.png',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p8.png',
+                mobile:'http://jhonzzera.com.br/wp-content/uploads/2023/07/p3.png',
+                desktop:'http://jhonzzera.com.br/wp-content/uploads/2023/07/p3.png',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p9.png',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p9.png',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p2.png',
+                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p2.png',
             },
             {
-                mobile: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p10.png',
-                desktop: 'http://localhost/Gabriel%20other%20project/imgs/pure_healthy/images/p10.png',
+                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p1.png',
+                desktop:'http://jhonzzera.com.br/wp-content/uploads/2023/07/p1.png',
             },
         ]
     },
