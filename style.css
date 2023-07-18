@@ -1,5 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
 :root {
     --radius-cylinder: 99999999px;
+}
+
+body {
+    background: linear-gradient(to bottom, #151821, #252D3C, #151821);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    transition: none;
 }
 
 .slide {
@@ -7,12 +23,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 20px;
 }
 
 .slide .content {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    max-width: 1024px;
     width: 100%;
 }
 .slide .title {
