@@ -1,29 +1,19 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    scroll-behavior: smooth;
-}
-
-:root {
-    --radius-cylinder: 99999999px;
-}
-
-body {
-    background: linear-gradient(to bottom, #151821, #252D3C, #151821);
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    background-size: cover;
-    transition: none;
-}
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=swap&ver=6.2.2');
 
 .slide {
+    --radius-cylinder: 99999999px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 20px;
+}
+
+.slide * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', Arial, Helvetica, sans-serif;
 }
 
 .slide .content {
@@ -104,7 +94,7 @@ body {
 .slide .infos-top .client-infos .text-content .name {
     color: #23CDC3;
     font-size: 14pt;
-    font-weight: 500;
+    font-weight: 900;
     flex: none;
     margin: 0;
 }
@@ -144,7 +134,7 @@ body {
     padding: 0;
     margin: 0;
     transition: .3s ease;
-    --background-color: #2a303f;
+    --background-color: linear-gradient(to right, #23cdc3, #238a87);
     --border-color: linear-gradient(to right, #23cdc3, #238a87);
     --border-width: 4px;
     border-radius: 5px 20px 5px 20px;
@@ -154,10 +144,12 @@ body {
     outline: none;
     min-width: 230px;
     height: 60px;
+    font-size: 12pt;
+    text-transform: uppercase;
 }
   
 .slide .infos-top .btn-action:hover {
-    --background-color: #23cdc3;
+    --background-color: #151821;
     --border-color: #23cdc3;
     transform: scale(1.05);
 }
@@ -343,9 +335,10 @@ body {
     }
 
     .slide .infos-top .btn-action:hover {
+        --background-color: #23cdc3;
         transform: none;
     }
-
+    
     .slide .infos-top .btn-action .txt .icon {
         display: block;
         --size: 60%;
@@ -355,7 +348,7 @@ body {
         top: 50%;
         left: 50%;
         transform: translate3d(-50%, -50%, 0);
-        fill: #151821;
+        fill: #ffffff;
         flex: none;
     }
 
@@ -391,7 +384,7 @@ body {
 @media (max-width: 853px) and (orientation: landscape) {
 
     .slide .slide-container .images {
-        height: 360px;
+        height: 400px;
     }
 
 }

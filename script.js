@@ -1,7 +1,7 @@
 const clients = [
     {
         name: 'Gisele Meireles',
-        description: 'Descrição da Gisele Meireles',
+        description: 'Mentora e Infoprodutora',
         photo: 'https://cdn.discordapp.com/attachments/801210889943384105/1128464520185131168/logo.png',
         images: [
             {
@@ -48,7 +48,7 @@ const clients = [
     },
     {
         name: 'Matheus Staudinger',
-        description: 'Descrição do Matheus Staudinger',
+        description: 'Fisioterapeuta Esportivo',
         photo: 'https://cdn.discordapp.com/attachments/801210889943384105/1128464553248825424/logo.png',
         images: [
             {
@@ -95,7 +95,7 @@ const clients = [
     },
     {
         name: 'Pure Healthy',
-        description: 'Descrição da Pure Healthy',
+        description: 'O prazer de comer bem',
         photo: 'https://cdn.discordapp.com/attachments/801210889943384105/1128464577957470208/logo.png',
         images: [
             {
@@ -236,24 +236,6 @@ window.addEventListener('load', async () => {
 
     })
 
-    elements.slideContainer.images.childs.forEach((image, index) => {
-
-        image.addEventListener('click', async (e) => {
-
-            if(draggingLeave){
-
-                draggingLeave = false
-
-                return
-
-            }
-            
-            await scrollCarousel(image)
-
-        })
-
-    })
-
     elements.slideContainer.images.self.addEventListener('mousedown', await dragCarousel('start'))
     elements.slideContainer.images.self.addEventListener('mousemove', await dragCarousel('move'))
     elements.slideContainer.images.self.addEventListener('mouseup', await dragCarousel('end'))
@@ -325,8 +307,6 @@ async function dragCarousel(event) {
                 dragging = true
                 startDrag = clientX
                 startTranslate = Number(elements.slideContainer.images.self.style.transform.replace(/\D/g, ''))
-
-                console.log('Start dragging')
                 
             },
             move: async (e) => {
@@ -356,11 +336,11 @@ async function dragCarousel(event) {
     
                     scrollCarousel(currentImage, direction)
     
+                    dragging = false
+    
                 }
     
                 elements.slideContainer.images.self.style.transform = `translateX(-${offset}px`;
-
-                console.log('Dragging')
     
             },
             end: async (e) => {
@@ -373,8 +353,6 @@ async function dragCarousel(event) {
 
                 startDrag = 0
                 dragging = false
-
-                console.log('End Dragging')
                 
             },
         }
@@ -530,6 +508,14 @@ async function renderClientToDOM() {
         elements.slideContainer.images.childs.forEach((image, index) => {
 
             image.addEventListener('click', async () => {
+
+                if(draggingLeave){
+
+                    draggingLeave = false
+    
+                    return
+    
+                }
                 
                 await scrollCarousel(image)
     
