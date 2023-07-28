@@ -170,19 +170,28 @@ const elements = {
         }
     }
 }
-const imagesPerView = Number(getComputedStyle(elements.slideContainer.images.self.parentNode).getPropertyValue('--images-quantity').trim())
 
-let dragging = false,
+let imagesPerView = Number(getComputedStyle(elements.slideContainer.images.self.parentNode).getPropertyValue('--images-quantity').trim()),
+    dragging = false,
     draggingLeave = false,
     startDrag = 0,
     startTranslate = 0
-
 
 window.addEventListener('load', async () => {
 
     const carouselResizeObserver = new ResizeObserver(async (entries) => {
 
         for (entry of entries){
+
+            imagesPerView = Number(getComputedStyle(elements.slideContainer.images.self.parentNode).getPropertyValue('--images-quantity').trim())
+
+            if(document.body.clientWidth < 853){
+
+                await renderClientToDOM()
+
+                return
+
+            }
 
             const currentImage = Array.from(elements.slideContainer.images.childs).filter((child) => {
 
@@ -191,11 +200,7 @@ window.addEventListener('load', async () => {
             })[0]
             const currentImageIndex = Array.from(elements.slideContainer.images.childs).indexOf(currentImage)
 
-            if(currentImageIndex > 0){
-
-                await scrollCarousel(elements.slideContainer.images.childs[currentImageIndex - 1], 'right')
-
-            }
+            await scrollCarousel(elements.slideContainer.images.childs[currentImageIndex - 1])
 
         }
 
@@ -265,7 +270,7 @@ async function scrollCarousel(currentImage, direction) {
     newCurrentImage.classList.add('current')
 
     const newCurrentImageIndex = Array.from(elements.slideContainer.images.childs).indexOf(newCurrentImage)
-    const offset = (newCurrentImage.clientWidth * -(newCurrentImageIndex - 1)) + 'px'
+    const offset = (newCurrentImage.clientWidth * -(newCurrentImageIndex - (imagesPerView == 1 ? 0 : 1))) + 'px'
 
     for(let i = 0; i < newCurrentImageIndex - 1; i++){
 
