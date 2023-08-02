@@ -263,6 +263,9 @@
     transition: inherit;
     border-radius: 10px;
     cursor: pointer;
+    background-image: url('https://rafaturis.com.br/wp-content/uploads/2014/01/default-placeholder.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .slide .slide-container .images .group:active .image {

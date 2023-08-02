@@ -5,44 +5,44 @@ const clients = [
         photo: 'https://cdn.discordapp.com/attachments/801210889943384105/1128464520185131168/logo.png',
         images: [
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c10.jpg',
-                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c10.jpg',
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/c10.jpg',
+                desktop: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/c10.jpg',
             },
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c9.jpg',
-                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c9.jpg',
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/c9.jpg',
+                desktop: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/c9.jpg',
             },
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c8.jpg',
-                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c8.jpg',
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/c8.jpg',
+                desktop: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/c8.jpg',
             },
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c7.jpg',
-                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c7.jpg',
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/c7.jpg',
+                desktop: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/c7.jpg',
             },
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c6.jpg',
-                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c6.jpg',
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/c6.jpg',
+                desktop: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/c6.jpg',
             },
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c5.jpg',
-                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c5.jpg',
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/c5.jpg',
+                desktop: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/c5.jpg',
             },
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c4.jpg',
-                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c4.jpg',
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/c4.jpg',
+                desktop: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/c4.jpg',
             },
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c3.jpg',
-                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c3.jpg',
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/c3.jpg',
+                desktop: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/c3.jpg',
             },
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c2.jpg',
-                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c2.jpg',
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/c2.jpg',
+                desktop: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/c2.jpg',
             },
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c1.jpg',
-                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/c1.jpg',
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/c1.jpg',
+                desktop: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/c1.jpg',
             },
         ]
     },
@@ -52,44 +52,44 @@ const clients = [
         photo: 'https://cdn.discordapp.com/attachments/801210889943384105/1128464553248825424/logo.png',
         images: [
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/2.jpg',
-                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/2.jpg',
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/2.jpg',
+                desktop: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/2.jpg',
             },
             {
-                mobile:  'http://jhonzzera.com.br/wp-content/uploads/2023/07/1.png',
-                desktop:  'http://jhonzzera.com.br/wp-content/uploads/2023/07/1.png',
+                mobile:  'https://jhonzzera.com.br/wp-content/uploads/2023/07/1.png',
+                desktop:  'https://jhonzzera.com.br/wp-content/uploads/2023/07/1.png',
             },
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/3.jpg',
-                desktop:'http://jhonzzera.com.br/wp-content/uploads/2023/07/3.jpg',
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/3.jpg',
+                desktop:'https://jhonzzera.com.br/wp-content/uploads/2023/07/3.jpg',
             },
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/4.jpg',
-                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/4.jpg',
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/4.jpg',
+                desktop: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/4.jpg',
             },
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/5.jpg',
-                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/5.jpg',
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/5.jpg',
+                desktop: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/5.jpg',
             },
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/6.jpg',
-                desktop:  'http://jhonzzera.com.br/wp-content/uploads/2023/07/6.jpg',
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/6.jpg',
+                desktop:  'https://jhonzzera.com.br/wp-content/uploads/2023/07/6.jpg',
             },
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/7.jpg',
-                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/7.jpg',
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/7.jpg',
+                desktop: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/7.jpg',
             },
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/8.jpg',
-                desktop:'http://jhonzzera.com.br/wp-content/uploads/2023/07/8.jpg',
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/8.jpg',
+                desktop:'https://jhonzzera.com.br/wp-content/uploads/2023/07/8.jpg',
             },
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/9.jpg',
-                desktop:'http://jhonzzera.com.br/wp-content/uploads/2023/07/9.jpg',
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/9.jpg',
+                desktop:'https://jhonzzera.com.br/wp-content/uploads/2023/07/9.jpg',
             },
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/10.jpg',
-                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/10.jpg',
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/10.jpg',
+                desktop: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/10.jpg',
             },
         ]
     },
@@ -99,44 +99,44 @@ const clients = [
         photo: 'https://cdn.discordapp.com/attachments/801210889943384105/1128464577957470208/logo.png',
         images: [
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p9.png',
-                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p9.png',
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/p9.png',
+                desktop: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/p9.png',
             },
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p8.png',
-                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p8.png'
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/p8.png',
+                desktop: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/p8.png'
             },
             {
-                mobile:  'http://jhonzzera.com.br/wp-content/uploads/2023/07/p10.png',
-                desktop:  'http://jhonzzera.com.br/wp-content/uploads/2023/07/p10.png',
+                mobile:  'https://jhonzzera.com.br/wp-content/uploads/2023/07/p10.png',
+                desktop:  'https://jhonzzera.com.br/wp-content/uploads/2023/07/p10.png',
             },
             {
-                mobile:'http://jhonzzera.com.br/wp-content/uploads/2023/07/p7.png',
-                desktop:'http://jhonzzera.com.br/wp-content/uploads/2023/07/p7.png',
+                mobile:'https://jhonzzera.com.br/wp-content/uploads/2023/07/p7.png',
+                desktop:'https://jhonzzera.com.br/wp-content/uploads/2023/07/p7.png',
             },
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p6.png',
-                desktop:'http://jhonzzera.com.br/wp-content/uploads/2023/07/p6.png',
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/p6.png',
+                desktop:'https://jhonzzera.com.br/wp-content/uploads/2023/07/p6.png',
             },
             {
-                mobile:  'http://jhonzzera.com.br/wp-content/uploads/2023/07/p5.png',
-                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p5.png',
+                mobile:  'https://jhonzzera.com.br/wp-content/uploads/2023/07/p5.png',
+                desktop: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/p5.png',
             },
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p4.png',
-                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p4.png',
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/p4.png',
+                desktop: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/p4.png',
             },
             {
-                mobile:'http://jhonzzera.com.br/wp-content/uploads/2023/07/p3.png',
-                desktop:'http://jhonzzera.com.br/wp-content/uploads/2023/07/p3.png',
+                mobile:'https://jhonzzera.com.br/wp-content/uploads/2023/07/p3.png',
+                desktop:'https://jhonzzera.com.br/wp-content/uploads/2023/07/p3.png',
             },
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p2.png',
-                desktop: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p2.png',
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/p2.png',
+                desktop: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/p2.png',
             },
             {
-                mobile: 'http://jhonzzera.com.br/wp-content/uploads/2023/07/p1.png',
-                desktop:'http://jhonzzera.com.br/wp-content/uploads/2023/07/p1.png',
+                mobile: 'https://jhonzzera.com.br/wp-content/uploads/2023/07/p1.png',
+                desktop:'https://jhonzzera.com.br/wp-content/uploads/2023/07/p1.png',
             },
         ]
     },
@@ -175,7 +175,9 @@ let imagesPerView = Number(getComputedStyle(elements.slideContainer.images.self.
     dragging = false,
     draggingLeave = false,
     startDrag = 0,
-    startTranslate = 0
+    startTranslate = 0,
+    wasMobile = false,
+    currentClient
 
 window.addEventListener('load', async () => {
 
@@ -185,10 +187,11 @@ window.addEventListener('load', async () => {
 
             imagesPerView = Number(getComputedStyle(elements.slideContainer.images.self.parentNode).getPropertyValue('--images-quantity').trim())
 
-            if(document.body.clientWidth < 853){
+            if((!wasMobile && document.body.clientWidth < 853) || (wasMobile && document.body.clientWidth > 853)){
 
-                await renderClientToDOM()
+                wasMobile = !wasMobile
 
+                await renderClientToDOM(currentClient)
                 return
 
             }
@@ -198,9 +201,8 @@ window.addEventListener('load', async () => {
                 return child.classList.contains('current')
                 
             })[0]
-            const currentImageIndex = Array.from(elements.slideContainer.images.childs).indexOf(currentImage)
-
-            await scrollCarousel(elements.slideContainer.images.childs[currentImageIndex - 1])
+            
+            await scrollCarousel(currentImage)
 
         }
 
@@ -235,7 +237,7 @@ window.addEventListener('load', async () => {
 
             }
             
-            await scrollCarousel(currentImage, action.dataset.direction)
+            await scrollCarousel(currentImage, direction)
 
         })
 
@@ -295,7 +297,7 @@ async function scrollCarousel(currentImage, direction) {
     }
 
     elements.slideContainer.images.self.style.transform = `translateX(${offset})`
-
+    
     await alternateClones(newCurrentImageIndex)
 
 }
@@ -407,6 +409,24 @@ async function createClones() {
             }
 
         })
+
+        return
+        
+    }
+    
+}
+
+async function deleteClones() {
+
+    let clones = elements.slideContainer.images.self.querySelectorAll('.image.clone')
+
+    if(clones && clones.length > 0){
+
+        clones.forEach((clone) => {
+
+            clone.remove()
+            
+        })
         
     }
     
@@ -415,34 +435,38 @@ async function createClones() {
 async function alternateClones(currentImageIndex) {
 
     const backupTransition = getComputedStyle(elements.slideContainer.images.self).getPropertyValue('transition')
-    const originalMaxImagesChilds = elements.slideContainer.images.childs.length - (imagesPerView * 2)
     
-    let newIndex = null,
-        direction = null
-    
-    if(currentImageIndex == 1){
+    let newIndex,
+        direction,
+        maxImages = elements.slideContainer.images.childs.length,
+        maxOriginalsImages = maxImages - imagesPerView * 2,
+        mainCloneOffset = imagesPerView == 3 ? 1 : 0,
+        firstMainClone = mainCloneOffset,
+        lastMainClone = (maxImages - 1) - mainCloneOffset
 
-        newIndex = originalMaxImagesChilds + imagesPerView
+    if(currentImageIndex == firstMainClone){
+        
+        newIndex = maxImages - imagesPerView
         direction = 'left'
         
-    } else if(currentImageIndex == elements.slideContainer.images.childs.length - 2){
+    } else if(currentImageIndex == lastMainClone){
         
         newIndex = imagesPerView - 1
         direction = 'right'
         
     }
-    
-    if(newIndex){
-        
+
+    if(newIndex != undefined || newIndex != null){
+
+        console.log(elements.slideContainer.images.childs[newIndex])
+
         elements.slideContainer.images.self.style.transition = 'none'
         await scrollCarousel(elements.slideContainer.images.childs[newIndex], direction)
         elements.slideContainer.images.self.style.transition = backupTransition
-        
-        if(currentImageIndex + 1 < originalMaxImagesChilds || currentImageIndex + 1 > originalMaxImagesChilds){
-            
-            await scrollCarousel(elements.slideContainer.images.childs[direction == 'left' ? (newIndex - 1) : (newIndex + 1)], direction)
 
-        }
+        newIndex = direction == 'left' ? newIndex - 1 : newIndex + 1
+        
+        await scrollCarousel(elements.slideContainer.images.childs[newIndex], direction)
 
     }
     
@@ -474,41 +498,41 @@ async function getClient() {
 
 }
 
-async function renderClientToDOM() {
+async function renderClientToDOM(client) {
 
     elements.slideContainer.images.self.innerHTML = null
 
-    const client = await getClient()
+    currentClient = client || await getClient()
 
-    elements.infosTop.foto.src = client.photo
-    elements.infosTop.clientInfos.name.textContent = client.name
-    elements.infosTop.clientInfos.description.textContent = client.description
+    elements.infosTop.foto.src = currentClient.photo
+    elements.infosTop.clientInfos.name.textContent = currentClient.name
+    elements.infosTop.clientInfos.description.textContent = currentClient.description
 
-    if(client.images.length > 0){
+    if(currentClient.images.length > 0){
 
-        client.images.forEach((image, index) => {
+        currentClient.images.forEach((image, index) => {
 
             const projectContainer = document.createElement('div')
-            const projectdesktop = document.createElement('img')
-            const projectmobile = document.createElement('img')
+            const projectDesktop = document.createElement('img')
+            const projectMobile = document.createElement('img')
     
             projectContainer.classList.add('image')
     
-            projectdesktop.classList.add('desktop')
-            projectmobile.classList.add('mobile')
+            projectDesktop.classList.add('desktop')
+            projectMobile.classList.add('mobile')
     
-            projectdesktop.src = image.desktop
-            projectmobile.src = image.mobile
+            projectDesktop.src = image.desktop
+            projectMobile.src = image.mobile
     
-            projectContainer.appendChild(projectdesktop)
-            projectContainer.appendChild(projectmobile)
+            projectContainer.appendChild(projectDesktop)
+            projectContainer.appendChild(projectMobile)
             elements.slideContainer.images.self.appendChild(projectContainer)
     
         })
 
         elements.slideContainer.images.childs = elements.slideContainer.images.self.childNodes
 
-        await scrollCarousel(elements.slideContainer.images.childs[0], 'right')
+        await scrollCarousel(elements.slideContainer.images.childs[1])
 
         elements.slideContainer.images.childs.forEach((image, index) => {
 
